@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cris Doces e Bolos - Confeitaria Artesanal</title>
+    <meta name="description"
+        content="Cris Doces e Bolos oferece confeitaria artesanal com bolos, cupcakes, tortas e doces finos feitos com amor. Faça seu pedido pelo WhatsApp!">
+    <link rel="icon" type="image/x-icon" href="./ico/icone.ico" style="border-radius: 50%;">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="animated-bg">
+        <!-- Header -->
+        <header>
+            <nav>
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <img src="./img/logo.jpg" alt="Logo Cris Doces e Bolos"
+                            style="width: 50px; height: 50px; border-radius: 50%;">
+                        <!-- Fundo rosa -->
+                        <circle cx="50" cy="50" r="50" fill="#F4B2C8" />
+
+                        <!-- Base do cupcake -->
+                        <path d="M30 65 L70 65 L65 85 L35 85 Z" fill="none" stroke="#8B4513" stroke-width="2" />
+                        <line x1="40" y1="70" x2="42" y2="80" stroke="#8B4513" stroke-width="1" />
+                        <line x1="50" y1="70" x2="52" y2="80" stroke="#8B4513" stroke-width="1" />
+                        <line x1="60" y1="70" x2="62" y2="80" stroke="#8B4513" stroke-width="1" />
+
+                        <!-- Chantilly do cupcake -->
+                        <path
+                            d="M25 65 Q30 50 40 55 Q45 45 50 50 Q55 40 65 45 Q70 35 75 50 Q70 60 65 65 Q60 70 50 65 Q40 70 35 65 Q30 70 25 65"
+                            fill="none" stroke="#8B4513" stroke-width="2" />
+
+                        <!-- Coração pequeno -->
+                        <path
+                            d="M45 25 C45 22, 48 20, 50 22 C52 20, 55 22, 55 25 C55 28, 50 33, 50 33 C50 33, 45 28, 45 25 Z"
+                            fill="#8B4513" />
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">CRIS</span>
+                        <span class="logo-sub">Bolos e Doces</span>
+                    </div>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="menu-toggle" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Doces que Encantam</h1>
+                <p>Confeitaria artesanal feita com muito amor e carinho. Bolos, doces e sobremesas que tornam seus
+                    momentos ainda mais especiais.</p>
+                <a href="#contato" class="cta-button">Faça seu Pedido</a>
+            </div>
+        </section>
+
+        <!-- Produtos Section -->
+        <section id="produtos" class="section">
+            <h2 class="section-title">Nossos Produtos</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">🎂</div>
+                    <h3>Bolos Personalizados</h3>
+                    <p>Bolos únicos e deliciosos para suas celebrações especiais. Sabores variados e decorações
+                        personalizadas.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🧁</div>
+                    <h3>Cupcakes</h3>
+                    <p>Cupcakes artesanais com cobertura cremosa e sabores irresistíveis. Perfeitos para festas e
+                        eventos.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🍰</div>
+                    <h3>Tortas e Sobremesas</h3>
+                    <p>Tortas doces e sobremesas refinadas que conquistam o paladar mais exigente.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🍪</div>
+                    <h3>Doces Finos</h3>
+                    <p>Brigadeiros gourmet, cookies decorados e doces finos para adoçar seus dias.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🍯</div>
+                    <h3>Doces Tradicionais</h3>
+                    <p>Receitas tradicionais da família, feitas com ingredientes selecionados e muito carinho.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🎉</div>
+                    <h3>Kits Festa</h3>
+                    <p>Kits completos para suas festas com doces variados e decoração temática.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeria Section -->
+        <section id="galeria" class="section">
+            <h2 class="section-title">Nossa Galeria</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">🎂</div>
+                <div class="gallery-item">🧁</div>
+                <div class="gallery-item">🍰</div>
+                <div class="gallery-item">🍪</div>
+                <div class="gallery-item">🍯</div>
+                <div class="gallery-item">🎉</div>
+                <div class="gallery-item">🍫</div>
+                <div class="gallery-item">🍮</div>
+            </div>
+        </section>
+
+        <!-- Contato Section -->
+        <section id="contato" class="section">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>📱 WhatsApp</h3>
+                    <p><a href="https://wa.me/554896096524" target="_blank">(48) 96096-524</a></p>
+                    <p>Faça seu pedido pelo WhatsApp</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📍 Localização</h3>
+                    <p>Criciúma, Santa Catarina</p>
+                    <p>Entregamos na região</p>
+                </div>
+                <div class="contact-item">
+                    <h3>🕒 Horário</h3>
+                    <p>Segunda a Sexta: 8h às 18h</p>
+                    <p>Sábado: 8h às 16h</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Floating Social Button -->
+        <a href="https://www.instagram.com/cris.doces_e_bolos_/" class="floating-social" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"
+                style="width: 32px; height: 32px;">
+        </a>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 CRIS - Bolos e Doces. Feito com ❤️ em Criciúma, SC | Instagram: @cris.doces_e_bolos_</p>
+        </footer>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
