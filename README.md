@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Logo](https://img.shields.io/badge/🧁-CRIS%20Bolos%20e%20Doces-F4B2C8?style=for-the-badge&logoColor=8B4513)
+![Logo](https://img.shields.io/badge/🧁-CRIS%20Doces%20e%20Bolos-F4B2C8?style=for-the-badge&logoColor=8B4513)
 
 **Confeitaria artesanal feita com muito amor e carinho**
 
