@@ -1,4 +1,4 @@
-# 🧁 CRIS - Bolos e Doces
+# 🧁 CRIS - Doces e Bolos
 
 <div align="center">
 
@@ -15,7 +15,7 @@
 
 ## 🌟 **Sobre o Projeto**
 
-Site responsivo e moderno desenvolvido para a confeitaria **CRIS - Bolos e Doces**, localizada em Criciúma, Santa Catarina. O projeto apresenta um design elegante com animações suaves e uma experiência de usuário otimizada para todos os dispositivos.
+Site responsivo e moderno desenvolvido para a confeitaria **CRIS - Doces e Bolos**, localizada em Criciúma, Santa Catarina. O projeto apresenta um design elegante com animações suaves e uma experiência de usuário otimizada para todos os dispositivos.
 
 ## 🎨 **Design Features**
 
@@ -114,7 +114,7 @@ O site foi desenvolvido com **mobile-first approach** e se adapta perfeitamente 
 ## 📂 **Estrutura do Projeto**
 
 ```
-cris-bolos-doces/
+cris-doces-bolos/
 ├── index.html          # Página principal
 ├── css/
 │   └── style.css      # Estilos incorporados
@@ -137,7 +137,7 @@ cris-bolos-doces/
 
 <div align="center">
 
-**CRIS - Bolos e Doces**
+**CRIS - Doces e Bolos**
 
 📍 Criciúma, Santa Catarina  
 📱 WhatsApp: [(48) 99999-9999](https://wa.me/5548999999999)  
@@ -153,7 +153,7 @@ cris-bolos-doces/
 
 <div align="center">
 
-**Desenvolvido com ❤️ para CRIS - Bolos e Doces**
+**Desenvolvido com ❤️ para CRIS - Doces e Bolos**
 
 *Doces que Encantam • Bolos, doces e sobremesas que tornam seus momentos ainda mais especiais*
 
